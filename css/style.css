@@ -1,125 +1,121 @@
-body {
-
+body { 
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
   font-size: 14px;
-
-  background-color: #ffffff;
-
+  background-color: #A69897;
 }
-
-
 
 div.main {
+	position:fixed;
+    top: 40%;
+    left: 50%;
+	margin-left: -300px;	
+	margin-top: -200px;	
+	width: 600px;	
+	height: 400px;	
+    border: 0px solid white;
+}
 
-	top: 20%;
+div.main_left {	
+	float: left;
+	width: 70%;	
+	height: 100%;    
+    border: 0px solid black;
+}
 
-	position: absolute;
+div.main_right {	
+	float: left;
+	width: 29%;	
+	height: 100%;    
+    border: 0px solid purple;    
+	background-image: url("img/shenmueright.png");
+}
 
-	width: 30em;
+div.main_left_top {	
+	float: left;
+	width: 100%;	
+	height: 43%;    
+    border: 0px solid brown;
+}
 
-	left: 50%;
-
-	margin-left: -15em;
-
+div.main_left_middle {	
+	float: left;
+	width: 100%;	
+	height: 13%;    
+    border: 0px solid green;
 }
 
 
-
-div.title {
-
-	margin-top:0.2em;
-
-	margin-bottom: 0.3em;
-
-	text-align: center;
-
-	border-bottom: 2px solid;
-
-	line-height: 1;
-
+div.main_left_bottom {
+	float: left;
+	width: 100%;
+	height: 52%;
+    cursor: default;
 }
-
-
 
 div.info {
-
-	text-align:center;
-
+    height: 100%;
+    padding-left: 120px;
+    margin : auto;
 }
 
-
+div.main_left:hover ~ div.main_right {
+	background-image: url("img/shenmueright_hover.png");
+}
 
 div.info ul {
-
+	text-align:right;    
 	width: 294px;
-
+    height: 100%;    
 	margin: 0 auto;
-
 	padding: 0;
-
 	list-style: none;
-
 }
-
-
 
 div.info li {
-
 	float: left;
-
 	padding-top: 6px;
-
 	width: 42px;
-
 }
-
-
 
 div.info img {
-
 	display: block;
-
 	margin: auto;
-
 	height: auto;
-
-}
-
-div.info:hover {
-
-	padding: 0;
-
 }
 
 div.info img:hover {
-
 	width: 38px;
-
 	height: auto;
-
 }
 
-h1{
-
-	margin: 0.1em 0;
-
-	font-size:40px;
-
-	color: #4C4C4C;
-
+h1 {    
+    padding-top: 10px;	
+	border-top: 2px solid;    
+	margin: 0px 10px 2px 0px;
+	font-size:34px;
+	color: #4C4C4C;	
+	text-align: right;
 }
-
-
 
 h2 {
-
-	margin-top: 0em;
-
-	margin-bottom: 0.5em;
-
+	margin: 0px 10px 2px 0px;
 	font-size: 12px;
-
 	color: #4D4D4D;
+	text-align: right;
+}
 
+h3 {
+	margin: 0px 10px 2px 0px;
+	font-size: 12px;	
+	text-align: right;
+}
+
+a.blue {	
+	color:  #0052cc;	
+	text-decoration: none;		
+} 
+
+a {
+	target-name: new;
+	target-new: tab;
 }
