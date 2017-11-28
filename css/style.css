@@ -67,7 +67,7 @@ div.info ul {
 	width: 252px;
     height: 100%;    
 	margin: 0 auto;
-	padding: 0;
+	padding-right; 2px;
 	list-style: none;
 }
 
