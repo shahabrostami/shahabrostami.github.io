@@ -59,7 +59,7 @@ div.info {
 }
 
 div.main_left:hover ~ div.main_right {
-	background-image: url("img/shenmueright_hover.png");
+	background-image: url("../img/shenmueright_hover.png");
 }
 
 div.info ul {
